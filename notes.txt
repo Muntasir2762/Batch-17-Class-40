@@ -1,0 +1,79 @@
+
+1. for loop
+2. foreach loop
+3. while loop
+4. do while loop
+
+
+
+1. for loop
+
+for(initialization; range/condition; incremnet/decrement){
+    //Statement...
+}
+
+for(let i = 0; i<=9; i++){
+    console.log("Hello world");
+}
+
+3. while loop
+
+initialization
+
+while(range/condition){
+    //Statement..
+    incremnet/decrement
+}
+
+let j = 0;
+
+while(j<=9){
+    console.log("Hello world");
+
+    j++
+}
+
+4. do while loop
+
+initialization
+
+do{
+    //Statement..
+    incremnet/decrement
+}
+
+while(range/condition);
+
+let k = 0;
+
+do{
+    console.log("Hello world");
+
+    k++;
+}
+
+while(i<=9);
+
+2. foreach loop
+
+array.forEach(element)=>{
+    //Statement...
+}
+
+array.forEach((element)=>{
+    //Statement..
+});
+
+let marks = [56, 67, 89, 54,78, 87];
+
+marks.forEach((element)=>{
+    console.log(element);
+});
+
+==================Function=====================
+
+function functionName (parameter){
+    //Task/Statement..
+}
+
+call(); //functionName
